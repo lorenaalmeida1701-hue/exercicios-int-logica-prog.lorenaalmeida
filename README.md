@@ -1,2 +1,11 @@
 # exercicios-int-logica-prog.lorenaalmeida
-Atividades práticas da disciplina lógica de programação
+Atividades Práticas - Introdução à Lógica de Programação
+
+Este repositório contém a resolução das 4 atividades práticas propostas para a disciplina. 
+
+O repositório está organizado com arquivos individuais para cada problema:
+
+*   `atividade1.py` - Função para calcular a soma de dois números inteiros;
+*   `atividade2.py` - Função para encontrar a soma de todos os elementos de um array;
+*   `atividade3.py` - Algoritmo para encontrar a menor palavra lexicograficamente maior;
+*   `atividade4.py` - Algoritmo para verificar a possibilidade de organização dos contêineres de bolas.
