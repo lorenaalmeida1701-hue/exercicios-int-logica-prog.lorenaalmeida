@@ -1,0 +1,8 @@
+def somar_dois_numeros(a, b):
+    # O foco é algoritmo puro: guardamos o resultado em uma variável e retornamos
+    resultado = a + b
+    return resultado
+
+# --- ÁREA DE TESTES (Para você ver funcionando) ---
+# Exemplo do enunciado: a = 7, b = 3 deve retornar 10
+print("Teste Atividade 1:", somar_dois_numeros(7, 3))
