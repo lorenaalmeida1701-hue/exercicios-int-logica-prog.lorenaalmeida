@@ -1,0 +1,35 @@
+def organizar_conteineres(container, n):
+    capacidade = [0] * n
+    quantidade_tipo = [0] * n
+    for i in range(n):
+        for j in range(n):
+            capacidade[i] += container[i][j]
+            quantidade_tipo[j] += container[i][j]
+            
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if capacidade[j] > capacidade[j + 1]:
+                temp = capacidade[j]
+                capacidade[j] = capacidade[j + 1]
+                capacidade[j + 1] = temp
+                
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if quantidade_tipo[j] > quantidade_tipo[j + 1]:
+                temp = quantidade_tipo[j]
+                quantidade_tipo[j] = quantidade_tipo[j + 1]
+                quantidade_tipo[j + 1] = temp
+                
+    for i in range(n):
+        if capacidade[i] != quantidade_tipo[i]:
+            return "Impossible"
+            
+    return "Possible"
+    
+    #testedocodigo
+matriz_teste = [
+    [1, 1, 3],
+    [1, 2, 1],
+    [1, 1, 1]
+]
+print("Teste Atividade 4:", organizar_conteineres(matriz_teste, 3))
