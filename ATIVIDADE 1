@@ -1,5 +1,4 @@
 def somar_dois_numeros(a, b):
-    # O foco é algoritmo puro: guardamos o resultado em uma variável e retornamos
     resultado = a + b
     return resultado
 
