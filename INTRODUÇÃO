@@ -10,4 +10,4 @@ O repositório está organizado com arquivos individuais para cada problema:
 *   `atividade3.py` - Algoritmo para encontrar a menor palavra lexicograficamente maior;
 *   `atividade4.py` - Algoritmo para verificar a possibilidade de organização dos contêineres de bolas.
 
-Para resolução dessas atividades foram feitos teste no site https://www.onlinegdb.com/, onde foi possível corrigir erros dos códigos sugeridos pela IA de acordo com a lógica.
+Para resolução dessas atividades foram feitos teste nos sites https://www.onlinegdb.com/ e https://onecompiler.com/python#draft-mube, onde foi possível corrigir erros dos códigos sugeridos pela IA de acordo com a lógica.
